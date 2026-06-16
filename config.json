@@ -49,7 +49,7 @@
     "PRE_FILTER_PORTS": [443],
     "_comment_PRE_FILTER_PORTS": "TCP 测试前允许的端口列表（可多端口）",
 
-    "ENABLE_WXPUSHER": true,
+    "ENABLE_WXPUSHER": false,
     "_comment_ENABLE_WXPUSHER": "是否启用 WxPusher 微信通知",
 
     "WXPUSHER_APP_TOKEN": "your_app_token_here",
@@ -68,7 +68,7 @@
     "_comment_NOTIFY_CONNECT_TIMEOUT": "微信通知 API 连接超时（秒）",
 
     "_comment_cf_dns": "Cloudflare DNS 批量更新配置",
-    "CF_ENABLED": true,
+    "CF_ENABLED": false,
     "CF_API_TOKEN": "your_CF_API_TOKEN",
     "CF_ZONE_ID": "your_CF_ZONE_ID",
     "CF_DNS_RECORD_NAME": "your_CF_DNS_RECORD_NAME",
@@ -244,7 +244,7 @@
     "_comment_retry": "重试策略配置",
     "DNS_UPDATE_MAX_RETRIES": 3,
     "DNS_UPDATE_RETRY_DELAY": 3,
-    "GITHUB_SYNC_MAX_RETRIES": 3,
+    "GITHUB_SYNC_MAX_RETRIES": 0,
     "GITHUB_SYNC_RETRY_DELAY": 3,
     "GIT_SYNC_PROCESS_TIMEOUT": 180,
     "_comment_GIT_SYNC_PROCESS_TIMEOUT": "Git 同步子进程最大运行时间（秒）",
